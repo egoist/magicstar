@@ -1,0 +1,2 @@
+# magicstar
+strengthen github star
