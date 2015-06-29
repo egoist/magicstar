@@ -1,0 +1,26 @@
+{
+  "name": "magicstar",
+  "version": "1.0.0",
+  "description": "![](http://s1.momo.moda/2015/06/29/577bcc914f9e55d5e4e4f82f9f00e7d4.png)",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilorange/magicstar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilorange/magicstar/issues"
+  },
+  "homepage": "https://github.com/aprilorange/magicstar#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "^2.0.5",
+    "gulp-uglify": "^1.2.0"
+  }
+}

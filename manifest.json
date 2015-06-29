@@ -1,0 +1,30 @@
+{
+  "name": "magicstar",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "author": "April Orange",
+  "description": "strengthen github star in your chrome",
+  "homepage_url": "https://github.com/aprilorange/magicstar",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://github.com/*",
+    "storage"
+  ],
+  "optional_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [ "build/js/background.js" ],
+    "persistent": false
+  },
+  "content_scripts": [
+      {
+          "matches": ["https://github.com/*"],
+          "js": ["build/js/magicstar.js"]
+      }
+  ]
+}
